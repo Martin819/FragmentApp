@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="cz.uhk.fim.brahavl1.fragmentsmallapp.ListFragment">
+
+   <!--  //tohle popisuje ten fragment, kterej budeme zobrazovat-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListFragment"/>
+
+    <Button
+        android:id="@+id/btnSubjectKIKM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kikmm"/>
+
+    <Button
+        android:id="@+id/btnSubjectKIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kit"/>
+
+
+    <Button
+        android:id="@+id/btnSubjectKAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kal"/>
+
+    <Button
+        android:id="@+id/btnTeachers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="učitelé"/>
+
+    <Button
+        android:id="@+id/btnExams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="zkoušky"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nastavení"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</LinearLayout>
